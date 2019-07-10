@@ -24,6 +24,7 @@ import com.rcg.com.dto.Error;
 @RestController
 public class GlobalControllerAdvice extends ResponseEntityExceptionHandler 
 {
+//Test comment
 
 	@ExceptionHandler(RitzkidsException.class)
 	public ResponseEntity<ResponseStatus<Error>> handleInvalidInputException(RitzkidsException ex,WebRequest request) 
